@@ -1,0 +1,5 @@
+Setelah kelas selesai, jangan lupa mengaktifkan fitur chrome dibawah
+
+chrome://flags/#block-insecure-private-network-requests
+
+copy paste ke search bar chrome
