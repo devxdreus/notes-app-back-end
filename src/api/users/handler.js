@@ -8,7 +8,7 @@ class UsersHandler {
         this._validator.validateUserPayload(request.payload);
         const { username, password, fullname } = request.payload;
 
-        const userId = this._service.addUser({
+        const userId = await this._service.addUser({
             username,
             password,
             fullname,
